@@ -1,0 +1,15 @@
+# Never upload secrets or local-only state - on Vercel, secrets come from
+# the project's Environment Variables.
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.db
+data/*.db-*
+data/audio/*
+data/notes/*
+tests/
+*.bat
